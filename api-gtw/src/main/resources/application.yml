@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: api-gtw
+  cloud:
+    gateway:
+      routes:
+        - id: customer-service
+          predicates:
+            - Path=/api/customer/**
+          uri: http://localhost:8081
+        - id: fraud-service
+          predicates:
+            - Path=/api/fraudster/**
+          uri: http://localhost:8082
+        - id: notification-service
+          predicates:
+            - Path=/api/notification/**
+          uri: http://localhost:8083
+  main: 
+    web-application-type: reactive
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
