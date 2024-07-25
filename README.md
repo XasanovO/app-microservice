@@ -1,4 +1,3 @@
----
 
 **Microservices Learning Project**
 
@@ -25,5 +24,3 @@ Technologies Used:
 This repository is intended for my own learning and testing 
 purposes as I explore and implement various 
 aspects of microservices architecture using Spring Boot.
-
----
