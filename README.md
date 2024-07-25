@@ -2,7 +2,11 @@
 
 **Microservices Learning Project**
 
-This repository contains my personal code and projects as I learn and implement microservices using Spring Boot. It serves as a practical exploration of microservices architecture, including:
+This repository contains my personal 
+code and projects as I learn and 
+implement microservices using 
+Spring Boot. It serves as a practical 
+exploration of microservices architecture, including:
 
 - **Parent POM Management**: Used a single parent POM (pom.xml) to manage dependencies and build configurations for all microservices.
 - **Eureka Service Discovery**: Implemented Eureka for service registration and discovery, allowing microservices to locate each other.
@@ -18,6 +22,8 @@ Technologies Used:
 - **OpenFeign**
 - **RabbitMQ**
 
-This repository is intended for my own learning and testing purposes as I explore and implement various aspects of microservices architecture using Spring Boot.
+This repository is intended for my own learning and testing 
+purposes as I explore and implement various 
+aspects of microservices architecture using Spring Boot.
 
 ---
